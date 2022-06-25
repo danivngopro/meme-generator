@@ -2,9 +2,9 @@ version: '3.7'
 
 services:
 
-  todoapp:
+  memegen:
     container_name: todoapp
     build:
       context: .
     ports:
-      - 3001:3000
+      - 3002:3000
