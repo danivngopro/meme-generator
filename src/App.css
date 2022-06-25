@@ -1,0 +1,39 @@
+.body {
+  height: 100vh;
+  min-width: 40rem;
+  background-image: url("https://imgs.search.brave.com/d29f2fsQc4yiCZskuULwPgEN5UND0ripifQoMINIlRQ/rs:fit:844:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5t/TTJWMWRPZXQ4SXlH/LTlHYXd5VzhRSGFF/SyZwaWQ9QXBp");
+  display: flex;
+  justify-content: space-around;
+}
+
+.appContainer {
+  background-color: rgb(27, 150, 180);
+  width: 60%;
+  height: 70%;
+  min-width: 50rem;
+  min-height: 50rem;
+  border-radius: 15px;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0px;
+  text-decoration: underline;
+}
+
+.img {
+  width: 200px;
+  height: 200px;
+  margin-top: 1rem;
+}
+
+.memeContainer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 85%;
+  height: 80%;
+  margin-left: 8%;
+  overflow: auto;
+}

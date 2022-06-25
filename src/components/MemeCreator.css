@@ -1,0 +1,22 @@
+.bigImg {
+  height: auto;
+  width: auto;
+  max-width: 600px;
+  max-height: 500px;
+}
+
+.textBox {
+  border: 2px solid rgb(102, 10, 10);
+  border-radius: 4px;
+  height: 30px;
+  width: 400px;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.submitBtn {
+    background-color: rgb(195, 241, 255);
+    border-radius: 9px;
+    border: 2px solid #dd6a8e;
+    padding: 9px;
+}
